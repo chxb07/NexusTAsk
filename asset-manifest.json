@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NexusTask/static/css/main.05baaf91.css",
+    "main.js": "/NexusTask/static/js/main.a0c346cc.js",
+    "static/js/453.1da41bdb.chunk.js": "/NexusTask/static/js/453.1da41bdb.chunk.js",
+    "index.html": "/NexusTask/index.html",
+    "main.05baaf91.css.map": "/NexusTask/static/css/main.05baaf91.css.map",
+    "main.a0c346cc.js.map": "/NexusTask/static/js/main.a0c346cc.js.map",
+    "453.1da41bdb.chunk.js.map": "/NexusTask/static/js/453.1da41bdb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05baaf91.css",
+    "static/js/main.a0c346cc.js"
+  ]
+}
