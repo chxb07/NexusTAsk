@@ -1,29 +1,37 @@
-# NexusTask - Futuristic To-Do List
+# NexusTask - Futuristic To-Do App ✨
 
-A modern, cyberpunk-inspired task management application with:
-- Dark/light mode theming
-- Glassmorphism UI effects
-- Neon accent animations
-- Local storage persistence
+![NexusTask Screenshot](https://github.com/chxb07/NexusTask/blob/main/screenshot.png?raw=true)
 
-## Features
+A cyberpunk-inspired task manager with glassmorphism UI, neon animations, and dark/light mode. Built with React and designed for productivity.
 
-✨ **Modern UI Elements**
+## 🌟 Features
+
+### 🎨 Futuristic UI
 - Glassmorphism panels with backdrop blur
-- Neon glow effects and particle animations
+- Neon glow effects & particle animations
 - Smooth transitions and micro-interactions
 
-⚡ **Core Functionality**
+### 🛠 Core Functionality
 - Add, edit, and delete tasks
-- Mark tasks as complete with animation
-- Priority levels (low/medium/high)
-- Filter tasks (all/active/completed)
-- Theme switching (dark/light)
+- Priority levels (Low/Medium/High)
+- Filter tasks (All/Active/Completed)
+- Dark/Light theme switching
+- Local storage persistence
 
-## Technologies Used
+### 📱 Responsive Design
+Works flawlessly on desktop and mobile devices
 
-- React (Functional Components with Hooks)
-- Context API for state management
-- CSS3 (Custom Properties, Animations)
-- Glassmorphism design technique
+## 🚀 Live Demo
+[Try NexusTask Online](https://nexustask.vercel.app) *(if deployed)*
+
+## 🛠 Tech Stack
+- **Frontend**: React (Hooks + Context API)
+- **Styling**: CSS3 (Custom Properties, Animations)
+- **State Management**: useReducer + Context
+- **Design**: Glassmorphism, Neumorphism
+
+## 📦 Installation
+1. Clone the repository
+```bash
+git clone https://github.com/chxb07/NexusTask.git
 
