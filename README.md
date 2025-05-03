@@ -1,7 +1,5 @@
 # NexusTask - Futuristic To-Do List
 
-![App Screenshot](screenshot.png) <!-- Add a screenshot -->
-
 A modern, cyberpunk-inspired task management application with:
 - Dark/light mode theming
 - Glassmorphism UI effects
@@ -29,8 +27,3 @@ A modern, cyberpunk-inspired task management application with:
 - CSS3 (Custom Properties, Animations)
 - Glassmorphism design technique
 
-## Installation
-
-1. Clone the repository
-```bash
-git clone https://github.com/your-username/futuristic-todo.git
