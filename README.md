@@ -1,6 +1,6 @@
 # NexusTask - Futuristic To-Do App ✨
 
-![NexusTask Screenshot](https://github.com/chxb07/NexusTask/blob/main/screenshot.png?raw=true)
+
 
 A cyberpunk-inspired task manager with glassmorphism UI, neon animations, and dark/light mode. Built with React and designed for productivity.
 
