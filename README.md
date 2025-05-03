@@ -22,7 +22,7 @@ A cyberpunk-inspired task manager with glassmorphism UI, neon animations, and da
 Works flawlessly on desktop and mobile devices
 
 ## 🚀 Live Demo
-[Try NexusTask Online]([(https://nexustask.netlify.app/)]) *(if deployed)*
+(https://nexustask.netlify.app/)
 
 ## 🛠 Tech Stack
 - **Frontend**: React (Hooks + Context API)
