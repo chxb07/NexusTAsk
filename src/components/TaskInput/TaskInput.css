@@ -1,0 +1,96 @@
+.task-input-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .task-input {
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 1rem;
+    border: 1px solid rgba(0, 210, 255, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .task-input:focus {
+    outline: none;
+    border-color: #00d2ff;
+    box-shadow: 0 0 10px rgba(0, 210, 255, 0.5);
+  }
+  
+  .priority-selector {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .priority-btn {
+    flex: 1;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background: var(--button-bg);
+    color: var(--button-text);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+  }
+  
+  .priority-btn.low.active {
+    background: rgba(100, 200, 100, 0.3);
+    border: 1px solid rgba(100, 200, 100, 0.6);
+    color: var(--button-text);
+  }
+  
+  .priority-btn.medium.active {
+    background: rgba(255, 180, 0, 0.3);
+    border: 1px solid rgba(255, 180, 0, 0.6);
+    color: var(--button-text);
+  }
+  
+  .priority-btn.high.active {
+    background: rgba(255, 100, 100, 0.3);
+    border: 1px solid rgba(255, 100, 100, 0.6);
+    color: var(--button-text);
+  }
+  
+  .add-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #00d2ff, #3a7bd5);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .add-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 210, 255, 0.4);
+  }
+  
+  .add-btn:active {
+    transform: translateY(0);
+  }
+  
+  .btn-icon {
+    font-size: 1.2rem;
+  }

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+/* Dark Theme Defaults */
+:root, .dark {
+  --primary: #00d2ff;
+  --secondary: #3a7bd5;
+  --accent: #ff00ff;
+  
+  --bg-primary: #121212;
+  --bg-secondary: #1e1e1e;
+  --bg-tertiary: #2d2d2d;
+  
+  --text-primary: #ffffff;
+  --text-secondary: #b0b0b0;
+  --text-tertiary: #808080;
+  
+  --border-color: rgba(255, 255, 255, 0.1);
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+
+  --button-bg: rgba(255, 255, 255, 0.1);
+  --button-hover: rgba(0, 210, 255, 0.2);
+  --button-text: #ffffff;
+  --delete-hover: rgba(255, 0, 0, 0.2);
+}
+
+/* Light Theme Overrides */
+.light {
+  --primary: #0066cc;
+  --secondary: #6633cc;
+  --accent: #ff3366;
+  
+  --bg-primary: #f5f5f5;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f0f0f0;
+  
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --text-tertiary: #999999;
+  
+  --border-color: rgba(0, 0, 0, 0.1);
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(0, 0, 0, 0.1);
+
+  --button-bg: rgba(0, 0, 0, 0.05);
+  --button-hover: rgba(0, 150, 255, 0.15);
+  --button-text: #333333;
+  --delete-hover: rgba(255, 0, 0, 0.15);
+
+  --text-primary: #222222;
+  --text-secondary: #444444;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  padding: 2rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 1px;
+}
+
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid var(--glass-border);
+}
+
+.neon {
+  text-shadow: 0 0 5px var(--primary), 0 0 10px var(--primary);
+}
+
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+/* More visible active states */
+button:active, .priority-btn:active, .filter-btn:active {
+    transform: scale(0.98);
+  }
+  
+  /* Better focus states for accessibility */
+  button:focus, input:focus, .priority-btn:focus {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+  }
